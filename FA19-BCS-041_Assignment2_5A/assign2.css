@@ -1,0 +1,39 @@
+.container {
+  padding-top: 5%;
+}
+
+#homepage-link {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+#homepage-link:hover {
+  cursor: pointer;
+}
+
+.user-input-area {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border: 1px grey solid;
+  border-radius: 10px;
+}
+
+.story {
+  display: none;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.story h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.word {
+  color: lightcoral;
+  font-weight: bolder;
+}

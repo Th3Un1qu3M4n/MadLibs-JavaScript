@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FA19-BCS-041</title>
+    <style>
+      body {
+        width: 800px;
+        margin: auto;
+      }
+      .highlighted {
+        background-color: rgb(237, 230, 225);
+        color: firebrick;
+      }
+      button {
+        margin-top: 30px;
+        padding: 10px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="assign2.html"><button>Create Story</button></a>
+    <h1>Problem # 01</h1>
+    <h1>Problem Description – Personal Narrative</h1>
+    <p>
+      For this assignment, you will create a webpage about yourself. The web
+      page must fulfill the following requirements:
+    </p>
+    <ol>
+      <li>Create simple HTML forms with input elements and a button,</li>
+      <li>Write Javascript functions that are used as event handlers,</li>
+      <li>
+        Write JQuery statements that gather the information from the input
+        fields, store the values into variables, and perform some operations
+        with them,
+      </li>
+    </ol>
+    <h2>Task 1: Creating the HTML page</h2>
+    Create the file <span class="highlighted">assign2.html</span>
+    <ol>
+      <li>Create the Home page where the assignment question is displayed.</li>
+      <li>
+        Create another page name “Story Creation” that takes a form as input
+        from user. Form input contains person name, character name, adverb and
+        adjective as text fields. The form contains a button “ Tell Story”.
+      </li>
+      <li>
+        it'll be useful to show a default value in all input elements to
+        simplify your testing of the page.
+      </li>
+      <li>
+        The form should also have a
+        <span class="highlighted">&lt button &gt</span> element with an ID so
+        that you can attach the event handler to it. It should also have the
+        attribute <span class="highlighted">type="button"</span>.
+      </li>
+      <li>
+        There should also be a
+        <span class="highlighted">&lt div &gt</span> element with an ID where
+        the story will appear.
+      </li>
+      <li>
+        The requirements for the story and its appearance are:
+        <ol>
+          <li>
+            There must be exactly four input fields, but their meaning is up to
+            you. Give them default values so that the form is easier to test.
+          </li>
+          <li>
+            Define a new CSS rule in
+            <span class="highlighted">assign2.css</span> to style <b>all</b> the
+            user-supplied words, so that you can see which words were chosen
+            when the story is displayed. You may use whatever color, font, etc.
+            you wish - just make sure the inserted words are distinguishable
+            from the rest of the story.
+          </li>
+          <li>
+            The story must be at least four, but not more than six, sentences
+            long (no longer!).
+          </li>
+          <li>
+            There should be <b>8 missing words</b> in the story, so you will
+            have to use some of the user-supplied words more than once. For
+            example, the person's name was used three times in the sample story
+            (Note that duplicated words are entered only once by the user!)
+          </li>
+          <li>
+            Define HTML elements where your JavaScript code will display the
+            values from the form. Think about how you'll target the correct
+            element for the matching value.
+          </li>
+          <li>
+            A story title should appear at the top of the story. This story
+            title should include your own name (if you are Aslam, something like
+            “Aslam's Crazy Story!”). Use your story title as the
+            <span class="highlighted">&lt title &gt</span> for your HTML page as
+            well.
+          </li>
+        </ol>
+      </li>
+    </ol>
+    The content of the story can be anything that you like — be creative!
+
+    <h3>Event Handler:</h3>
+    In your <span class="highlighted">assign2.js</span> file, define a function
+    (name it whatever you like) that will process the form. It should
+    <ul>
+      <li>
+        Read the four form inputs using the jQuery .val() method, storing the
+        values in variables.
+      </li>
+      <li>
+        Copy the values into the story using the jQuery .html() method. In your
+        Javascript file, add code to attach the function to the button that will
+        be clicked.
+      </li>
+    </ul>
+  </body>
+</html>

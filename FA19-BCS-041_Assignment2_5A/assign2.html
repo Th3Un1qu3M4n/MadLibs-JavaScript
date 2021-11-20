@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed's Convention Story</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assign2.css"
+    />
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-input-area">
+        <a href="index.html"><button id="homepage-link">Home Page</button></a>
+        <form>
+          <div class="form-group row">
+            <label for="inputPerson" class="col-sm-4 col-form-label"
+              >Person Name</label
+            >
+            <div class="col-sm-4">
+              <input
+                type="text"
+                class="form-control"
+                id="inputPerson"
+                placeholder="Ahmed"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputCharacter" class="col-sm-4 col-form-label"
+              >Character Name</label
+            >
+            <div class="col-sm-4">
+              <input
+                type="text"
+                class="form-control"
+                id="inputCharacter"
+                placeholder="Ali"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputAdverb" class="col-sm-4 col-form-label"
+              >Adverb</label
+            >
+            <div class="col-sm-4">
+              <input
+                type="text"
+                class="form-control"
+                id="inputAdverb"
+                placeholder="quickly"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputAdjective" class="col-sm-4 col-form-label"
+              >Adjective</label
+            >
+            <div class="col-sm-4">
+              <input
+                type="text"
+                class="form-control"
+                id="inputAdjective"
+                placeholder="welcoming"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-12">
+              <button id="tell-story" type="button" class="btn btn-primary">
+                Tell Story
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="story">
+        <h1>Ahmed's Convention story</h1>
+          <span class="word person">__________</span> met
+          <span class="word character">__________</span> at a convention.
+          <span class="word character">__________</span> was very
+          <span class="word adjective">__________</span>.
+          <span class="word character">__________</span>
+          <span class="word adverb">__________</span> told
+          <span class="word person">__________</span> that he worked at a tech company where everyone at the company were very
+          <span class="word adjective">__________</span>.
+        </p>
+      </div>
+    </div>
+
+    
+    <script
+      src="assign2.js"
+    ></script>
+
+    
+
+
+  </body>
+</html>
